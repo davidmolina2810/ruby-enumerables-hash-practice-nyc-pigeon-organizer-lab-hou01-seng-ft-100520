@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
         end
         new_hash[name][key].push(inner_key.to_s)
       new_hash[names] = nested_key
-    end 
+    end
   end
   binding.pry 
 end
