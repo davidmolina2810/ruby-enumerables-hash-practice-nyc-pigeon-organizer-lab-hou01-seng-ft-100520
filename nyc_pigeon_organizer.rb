@@ -8,4 +8,5 @@ def nyc_pigeon_organizer(data)
       new_hash[names] = nested_key
     end
   end
+  binding.pry 
 end
