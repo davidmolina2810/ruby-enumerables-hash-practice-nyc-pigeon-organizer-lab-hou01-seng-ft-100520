@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(data)
     value.each do |nested_key, names|
       binding.pry 
       new_hash[names] = nested_key
+    end
   end
 end
