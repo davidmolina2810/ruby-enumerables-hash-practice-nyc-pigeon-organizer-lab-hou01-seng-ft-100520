@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
       #binding.pry
       new_hash[names] = nested_key
     end
+  new_hash
   end
-  binding.pry 
+  binding.pry
 end
